@@ -1,5 +1,6 @@
 import re
 
+
 def is_username_valid(username: str) -> bool:
     return 3 < len(username) < 20
 
