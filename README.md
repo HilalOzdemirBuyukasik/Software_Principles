@@ -12,3 +12,5 @@ SOC: The responsibilities for retrieving user data and displaying it are separat
 DRY: The discount calculation logic is abstracted into a single function and reused across multiple products, avoiding repetition and following the DRY (Don't Repeat Yourself) principle.
 
 Each of these principles is demonstrated through practical examples, such as calculating discounted prices and handling user registrations, showing how they help create cleaner and more maintainable code.
+
+OCP: The Open-Closed Principle is demonstrated through a shape area calculation system. An abstract Shape class defines the interface, while concrete classes like Circle and Square implement their own area methods. The AreaCalculator class calculates the area without knowing the specific type of shape, and without needing modification when new shapes are added. This showcases how code can be open for extension but closed for modification, following the OCP principle.
